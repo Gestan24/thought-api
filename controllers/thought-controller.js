@@ -1,4 +1,4 @@
-const { Thought } = require('../models/');
+const { Thought } = require('../models');
 
 const thoughtController = {
 
@@ -157,7 +157,7 @@ const thoughtController = {
         .then(dbUserData => res.json(dbUserData))
 
         .catch(err => res.json(err));
-        
+
     }
 
 };

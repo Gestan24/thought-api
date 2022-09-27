@@ -11,7 +11,7 @@ const {
     removefriend
 
 } = require('../../controllers/user-controller');
-const { remove } = require('../../models/User');
+
 
 
 router

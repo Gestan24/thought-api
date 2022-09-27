@@ -127,7 +127,7 @@ const userController = {
 
             { _id: params.userId },
             { $pull: { friends: { friendId: params.friendId }}},
-            { new: true}
+            { new: true }
 
         )
 
